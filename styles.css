@@ -2,10 +2,9 @@
     font-family: 'Times New Roman', Times, serif
 }
 
-.header-link {
+.header-link  {
     display: flex;
     justify-content: flex-end;
-    align-items:flex-start;
 }
 
 header a {
@@ -21,4 +20,29 @@ header h4{
     border:0;
     margin:0;
     margin-right:70rem;
+}
+
+.box {
+    height:50px;
+    width:50px;
+    border: 2px;
+    border-color:black;
+    border-style: solid;
+}
+
+.parent-box {
+    display:flex;
+    justify-content: center;
+}
+
+.info-paragraph {
+    display:flex;
+    flex-direction:column;
+}
+.sign-up-button {
+    height:30px;
+    width:90px;
+}
+#subtext {
+    display:flex;
 }
