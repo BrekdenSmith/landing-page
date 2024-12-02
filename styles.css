@@ -1,5 +1,6 @@
 * {
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid red;
 }
 
 .header-link  {
@@ -33,16 +34,43 @@ header h4{
 .parent-box {
     display:flex;
     justify-content: center;
+    align-items:center;
 }
 
 .info-paragraph {
-    display:flex;
+    display: flex ;
     flex-direction:column;
+    margin-left: 10.2rem;
+    margin-top:1.5rem;
 }
+
+.info-paragraph p {
+    width: 400px;
+}
+
 .sign-up-button {
     height:30px;
     width:90px;
 }
+
 #subtext {
     display:flex;
+    margin-left: 40rem;
+}
+
+#subtext p {
+    margin:1rem;
+    font-size: small;
+}
+
+.parent-box .box {
+    margin:1rem;
+    height: 120px;
+    width:120px;
+}
+
+#random-info {
+    justify-content: center;
+    align-items: center;
+    margin-left: 50rem;
 }
