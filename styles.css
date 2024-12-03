@@ -52,8 +52,9 @@ header h4{
     margin-left: 10.2rem;
     margin-top:1.5rem;
     font-size:28px;
-    width:450px;
+    width:500px;
     align-items:flex-start;
+    height:400px;
 }
 
 .info-paragraph p {
@@ -67,6 +68,16 @@ header h4{
     width:90px;
     background-color:#3882F6;
     border-radius:10%;
+}
+
+#frog-picture {
+    height:320px;
+   margin-left:300px;
+   width:350px;
+}
+
+.header-main {
+    display:flex;
 }
 
 #subtext {
@@ -91,4 +102,20 @@ header h4{
     justify-content: center;
     align-items: center;
     margin-left: 50rem;
+    font-size:28px;
+}
+
+.quote {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.quote p {
+    width:650px;
+    font-size:26px;
+}
+.quote #signature {
+    font-size:20px;
+    margin-left:50rem;
 }
