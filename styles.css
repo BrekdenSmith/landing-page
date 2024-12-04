@@ -6,7 +6,7 @@
 header {
     background-color: #1F2937;
     color: #F9FaF8;
-    height:400px;
+    height:430px;
 }
 
 .header-link  {
@@ -25,11 +25,13 @@ header a {
     margin-right:12rem;
 }
 
-header h4{
+#king-frog{
     padding:0;
     border:0;
     margin:0;
-    margin-right:70rem;
+    margin-right:50rem;
+    width:200px;
+    height:100px;
 }
 
 .box {
