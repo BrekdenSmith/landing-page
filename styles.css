@@ -6,7 +6,7 @@
 header {
     background-color: #1F2937;
     color: #F9FaF8;
-    height:430px;
+    height:550px;
 }
 
 .header-link  {
@@ -19,6 +19,7 @@ header a {
     margin-right:1rem;
     color: #E5E7EB;
     font-size: 18px;
+    text-decoration: none;
 }
 
 #last-link {
@@ -29,7 +30,7 @@ header a {
     padding:0;
     border:0;
     margin:0;
-    margin-right:50rem;
+    margin-right:65rem;
     width:200px;
     height:100px;
 }
@@ -70,10 +71,11 @@ header a {
     width:90px;
     background-color:#3882F6;
     border-radius:10%;
+    cursor: pointer;
 }
 
 #frog-picture {
-    height:320px;
+    height:400px;
    margin-left:300px;
    width:350px;
 }
@@ -90,6 +92,10 @@ header a {
 #subtext p {
     margin:1rem;
     font-size: small;
+}
+
+#candy-cane {
+    width: 120px;
 }
 
 .parent-box .box {
